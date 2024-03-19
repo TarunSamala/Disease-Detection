@@ -18,6 +18,7 @@ Ensure you have the following dependencies installed:
 - NumPy
 - Matplotlib
 - scikit-learn
+- cv2
 
 You can install the dependencies using the following command:
 ```bash
@@ -26,28 +27,10 @@ pip install -r requirements.txt
 
 ## Directory Structure 
 
-disease-detection/
-│
-├── Data Analysis/
-│   ├── Prediction.ipynb
-│   └── Visualization.ipynb
-│
-├── Model/
-│   └── tomato_disease_detection_model.h5
-│
-├── PlantVillage/
-│   ├── (contains other leaf datasets)
-│   ├── Pepper__bell___Bacterial_spot/
-│   ├── Pepper__bell___healthy/
-│   ├── Potato___Early_blight/
-│   ├── (and so on...)
-│
-├── Scripts/
-│   ├── detection.py
-│   └── prediction.py
-│
-├── README.md
-└── requirements.txt
+- `Data Analysis/`: Contains Notebook for Visualization and Prediction
+- `Scripts/`: Contains the entire model and python script.
+- `PlantVillage/` : Contains dataset of the requrired leaves
+- `output/`: Contains the model, However the github upload limit exists , it only contains in the admins directory not on github.
 
 
 ## Model Overview
@@ -71,8 +54,3 @@ The disease detection model is a Convolutional Neural Network (CNN) designed for
 
 - Accuracy: Measures overall model performance, indicating the proportion of correctly classified samples.
 - Confusion Matrix: Provides detailed insights into classification results, helping identify misclassifications and model strengths.
-
-## Author
-- Samala Tarun
-- Email: tarunsamala.6435@gmail.com
-
