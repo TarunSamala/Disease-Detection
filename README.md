@@ -6,7 +6,7 @@ This project focuses on detecting diseases in leaves and crops using deep learni
 ## Cloning the Code
 To clone the code repository to your local files, use the following command:
 ```bash
-git clone https://github.com/your_username/disease-detection-in-leaves-and-crops.git
+git clone https://github.com/TarunSamala/Disease-Detection.git
 ```
 ## Requirements
 
